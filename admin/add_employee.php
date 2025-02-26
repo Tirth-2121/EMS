@@ -39,9 +39,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Debugging Output
             echo "DEBUG: Inserted User ID = " . $user_id . "<br>";
 
-            // REMOVE Email Check in Employees Table 
-            // employees table does not have an `email` column!
-
             // Insert into employees table
             $emp_query = "INSERT INTO employees (user_id, full_name, position, department, salary, join_date,status ) 
               VALUES (?, ?, ?, ?, ?, ?, ?)";
