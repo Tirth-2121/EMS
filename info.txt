@@ -1,0 +1,24 @@
+structure:
+📂 ems/
+│── 📂 assets/         # CSS, JS, Images
+│── 📂 includes/       # Common files (header, footer, db connection)
+│── 📂 admin/          # Admin Dashboard
+│   ├── dashboard.php
+│   ├── employees.php
+│   ├── attendance.php
+│   ├── leaves.php
+│   ├── salary.php
+│   ├── reports.php
+│   ├── queries.php
+│   ├── leave_calendar.php
+│── 📂 employee/       # Employee Panel
+│   ├── dashboard.php
+│   ├── punch.php
+│   ├── leave_request.php
+│   ├── salary_info.php
+│   ├── queries.php
+│── 📂 auth/           # Login & Registration
+│   ├── login.php
+│   ├── logout.php
+│── config.php         # Database connection
+│── index.php          # Redirect to login
